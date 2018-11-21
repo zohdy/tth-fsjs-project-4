@@ -36,7 +36,7 @@ qwerty.addEventListener('click', (e) => {
     }
 });
 
-// Use the clicked key as param and re-render the DOM keyboard after each click
+// Use the clicked key as param and re-render in-game keyboard after each click
 const markButton = (clickedKey) => {
     document.querySelectorAll('.key').forEach(key => {
         if( key.innerHTML === clickedKey){
